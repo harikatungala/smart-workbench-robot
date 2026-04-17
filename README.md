@@ -35,6 +35,19 @@ It uses an ultrasonic sensor to detect obstacles, stops when an obstruction is p
 6. After visiting all benches, the robot returns to its initial position.
 
 
+## How to Run
+1. Upload the code to Arduino using Arduino IDE
+2. Connect HC-05 Bluetooth module
+3. Power the robot
+4. Open Serial Bluetooth app
+5. Send "start" command to begin operation
+
+
+## Project Structure
+- workbench-robot/ → Arduino code
+- README.md → Project documentation
+
+
 ## Applications
 - Laboratory assistance
 - Automated material transport
@@ -46,3 +59,6 @@ It uses an ultrasonic sensor to detect obstacles, stops when an obstruction is p
 - Add path decision (left/right) instead of waiting
 - Improve navigation using sensors or mapping
 - Implement better motor control using drivers instead of relays
+
+## Project 
+![Robot Image](robot.jpg)
